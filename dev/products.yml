@@ -5,7 +5,7 @@ products:
     pivnet-api-token: ((pivnet_token))
     pivnet-file-glob: "*aws*.yml"
 
-  pas:
+  elastic-runtime:
     product-version: "2.7.0"
     pivnet-product-slug: elastic-runtime
     pivnet-api-token: ((pivnet_token))
