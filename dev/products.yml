@@ -11,3 +11,17 @@ products:
     pivnet-api-token: ((pivnet_token))
     pivnet-file-glob: "srt-*.pivotal"
     stemcell-iaas: aws
+
+  pivotal-mysql:
+    product-version: "2.6.3"
+    pivnet-product-slug: pivotal-mysql
+    pivnet-api-token: ((pivnet_token))
+    pivnet-file-glob: "*.pivotal"
+    stemcell-iaas: aws
+
+  p-redis:
+    product-version: "2.2.1"
+    pivnet-product-slug: p-redis
+    pivnet-api-token: ((pivnet_token))
+    pivnet-file-glob: "*.pivotal"
+    stemcell-iaas: aws
