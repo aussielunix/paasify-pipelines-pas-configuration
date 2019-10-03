@@ -1,0 +1,6 @@
+env_name: abv
+iaas: aws
+region: us-west-2
+dns_suffix: the.valueline.io
+
+configuration_source: git@github.com:aussielunix/paasify-pipelines-pas-configuration.git

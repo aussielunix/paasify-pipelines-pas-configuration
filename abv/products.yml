@@ -18,10 +18,3 @@ products:
     pivnet-api-token: ((pivnet_token))
     pivnet-file-glob: "*.pivotal"
     stemcell-iaas: aws
-
-  p-redis:
-    product-version: "2.2.1"
-    pivnet-product-slug: p-redis
-    pivnet-api-token: ((pivnet_token))
-    pivnet-file-glob: "*.pivotal"
-    stemcell-iaas: aws
